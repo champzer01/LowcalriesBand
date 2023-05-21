@@ -1,0 +1,92 @@
+p , span {
+    font-size: 20;
+    color: black;
+  }
+a {
+    background-color: pink;
+    color: black;
+    width: 1000px;
+    height: 50px;
+
+    
+    vertical-align: middle;
+    display: table-cell;
+    
+  }
+button.btn{
+  width: 150;
+  height: 50 ;  
+  background-color: orange;  
+  border-radius: 10px;
+  border: solid 1px black;
+  color: black;
+  
+  text-align: center;
+  
+  display: inline-block;
+  font-size: 16px;
+  margin:4px 2px;
+  cursor: pointer;
+  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+nav {
+  width: 100%;
+  height: 7vw;
+  background: linear-gradient(125deg,#f7df8f,#ff8c00);
+}
+.nav-contain{
+  max-width: 90vw;
+  height: 100%;
+  background:pink;
+  margin: 0 auto;
+}
+.logonav{
+  width: 7vw;
+  object-fit: contain;
+
+}
+.product{
+  width: 80%;
+  height: 100%;
+  padding: 10px;
+  background: pink;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 20px ; 
+  text-align: center;
+  
+}
+.product-item{
+  background:rgb(255, 239, 188) ;
+  cursor: pointer;
+  border: solid 1px black ;
+}
+.product-img{
+  width: 100%;
+  height: 17vw;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.product-item:hover{
+  transform: scale(1.1);
+}
+.btn-buy{
+  width: 150;
+  height: 50 ;  
+  background-color: white;  
+  border-radius: 10px;
+  border: solid 1px black;
+  color: black;
+  
+  text-align: center;
+  
+  display: inline-block;
+  font-size: 16px;
+  margin:4px 2px;
+  cursor: pointer;
+}

@@ -1,0 +1,71 @@
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  </head>
+  
+  <div class="container">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <div class="col-md-3 mb-2 mb-md-0">
+        <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+          <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+      </div>
+  
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="/home" class="nav-link px-2 link-secondary">Home</a></li>
+        <li><a href="/product" class="nav-link px-2">Product</a></li>
+        <li><a href="/AddProduct" class="nav-link px-2">AddProduct</a></li>
+        
+      </ul>
+  
+      <div class="col-md-3 text-end">
+        <%if (loggedIn) { %>
+         
+          <a class="btn btn-danger" href="/logout">Logout</a>
+        <%} %>
+        <%if (!loggedIn) { %>
+        
+          <a class = "btn btn-sm btn-outline-secondary" href="/login">Sign-in</a>
+          <a class="btn btn-success" href="/register">Sign-up</a>
+          
+  
+        <%} %>
+      </div>
+    </header>
+  </div>
+
+
+<a><b>Product</b></a>
+    <div class="product">
+            <div class="product-item">
+                <img src="/images/band.png" alt="">
+                <p>Black</p>
+                <p>2000 THB</p>
+                <button class="btn btn-buy">Buy</button>
+                <button class="btn btn-buy">Add to Basket</button>
+
+            
+            </div>
+           
+            <div class="product-item">
+                <img src="/img/band.png" alt="">
+                <p>White</p>
+                <p>2000 THB</p>
+                <button class="btn btn-buy">Buy</button>
+                <button class="btn btn-buy">Add to Basket</button>
+            </div>
+
+            
+            
+    </div>
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    
+</body>
+</html>
